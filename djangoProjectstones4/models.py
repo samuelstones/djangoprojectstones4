@@ -8,7 +8,7 @@ class employees(models.Model):
     number = models.IntegerField(blank=True, null=False)
     ethnicity = models.CharField(max_length=50, blank=True, null=False)
     phone = models.IntegerField(default=254773570102, blank=True, null=False)
-    Amount = models.IntegerField(default=3, blank=True, null=False)
+    Amount = models.IntegerField(default= 0, blank=True, null=False)
 
 
 def __str__(self):
